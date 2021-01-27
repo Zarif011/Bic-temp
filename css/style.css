@@ -81,20 +81,14 @@ nav a:hover {
   opacity: 0.9;
   margin-left: 80px;
   margin-top: -475px;
-  margin-bottom: 320px;
+  margin-bottom: 290px;
 }
 
 H1 {
   font-family: frankie;
   font-size: 80px;
   letter-spacing: 1px;
-  margin-top: 153.6px;
-}
-
-#responsive{
-  position: absolute;
-  top: 71px;
-  right: 72px;
+  margin-top: 105px;
 }
 
 #banner-text p {
@@ -183,7 +177,7 @@ p {
   padding-left: 70px;
 }
 
-.nav1{
+.nav1 {
   position: absolute;
   top: -3px;
   left: 30%;
@@ -248,7 +242,7 @@ i.fab:hover {
   text-shadow: 1px 1px 1px black;
 }
 
-.nav2{
+.nav2 {
   display: none;
 }
 
@@ -263,45 +257,51 @@ footer {
   font-size: 16px;
 }
 
+#responsive {
+  position: absolute;
+  top: 71px;
+  right: 72px;
+}
+
 @media screen and (max-width: 320px) {
-  #button-header{
+  #button-header {
     display: none;
   }
-  .nav1{
+  .nav1 {
     display: none;
   }
 }
 
 @media screen and (max-width: 420px) {
-  #button-header{
+  #button-header {
     display: none;
   }
-  .nav1{
+  .nav1 {
     display: none;
   }
 }
 
 @media screen and (max-height: 670px) {
-  .sub-container-picture1{
+  .sub-container-picture1 {
     max-width: 100%;
     padding-left: 0px;
     height: auto;
   }
-  .sub-container-picture2{
+  .sub-container-picture2 {
     max-width: 100%;
     padding-left: 0px;
     height: auto;
   }
-  #button-header{
+  #button-header {
     display: none;
   }
-  .nav1{
+  .nav1 {
     display: none;
   }
-  .nav2{
+  .nav2 {
     display: inline;
   }
-  #responsive2{
+  #responsive2 {
     display: none;
   }
 }

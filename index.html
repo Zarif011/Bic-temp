@@ -18,60 +18,17 @@
     <header>
       <a href="index.html"> <img id="logo-header" src="css/images/BIC-logo.svg" alt="Bulls Investing Club Logo"/>
         <nav>
-        <div class="nav1">
         <a href="/about" class="navigation-item w-nav-link">About</a>
         <a href="/team" class="navigation-item w-nav-link">Club founders</a>
         <a href="/blog" class="navigation-item w-nav-link">Last report</a>
-        </div>
-        <div class="nav2">
-          <ul>
-            <li>
-              <button id="responsive">
-                <i class="fas fa-bars" aria-hidden="true"></i>
-            </button>
-              <ul>
-                            <li>
-                                <div id="responsive2">
-                            <ul>
-                                <li>
-                                  <a href="/about" class="navigation-item w-nav-link">About</a>
-                                </li>
-                                <li>
-                                  <a href="/team" class="navigation-item w-nav-link">Club founders</a>
-                                </li>
-                                <li style="border-bottom: 10px black solid;">
-                                  <a href="/blog" class="navigation-item w-nav-link">Last report</a>
-                                </li>
-                                <li>
-                                  <a href="/contact" class="navigation-item w-nav-link">Contact us</a>
-                                </li>
-                        </li>
-                    </ul>
-          </div>
       </nav>
-      <script>
-      const responsive = document.getElementById('responsive');
-      responsive.addEventListener('click', function() {          
-          const responsive2 = document.getElementById('responsive2');
-          if(responsive2.style.display=="block"){
-          responsive.style.transition = 'all 0.98s ease';
-          responsive2.style.display="none";
-          responsive.innerHTML = '<i class="fas fa-bars"></i>';
-          }else{
-          responsive.style.transition = 'all 0.98s ease';
-          responsive2.style.display="block";
-          responsive.innerHTML = '<i class="fas fa-times"></i>'
-          }
-}); 
-      </script>
-  
       <button id="button-header"><a href="/contact"></a>Contact us</button>
     </header>
     <div>
       <div id="banner-box">
         <img
           id="banner"
-          src="css/images/background2b.jpg"
+          src="css/images/hero.jpg"
           alt="XXX"
         />
       </div>
@@ -95,18 +52,27 @@
               <p>We realised from this experience how difficult it is to handle market volatility and risk management, even for the seasoned investor.</p>
              </div>
           <img
-            src="css/images/computer-chart2.jpg" class="sub-container-picture1" alt="sub-container-picture1" />        </div>
-        <hr />
-            <section class="container">
+            src="css/images/computer-chart.jpg"
+            class="sub-container-picture1"
+            alt="XXXX"
+            />
+          
+        </div>
+        <section class="container">
           <div class="sub-container">
             <img
-            src="css/images/computer-chart2.jpg" class="sub-container-picture2" alt="sub-container-picture2" />
+            src="css/images/computer-chart.jpg"
+            class="sub-container-picture2"
+            alt="XXX"
+            />
           
              <div>
                <p class="sub-container-title2">What we do</p>
                <h3>Rethink Investment</h3>
                <p>Capitalizing on our two-year efforts, we came up with an innovative investment model allowing our members to make the most of their time and money.</p>
-               <p>A truly transparent investment fund with minimum constraints and clear entry conditions that allow investors to maximise their profits on the market.</p>
+               <p>A truly transparent investment fund with minimum constraints and clear entry conditions that allow investors to maximise their profits on the market.
+                 
+               </p>
                <button class="sub-container-button"><a href="/contact"></a>Learn more</button>
               </div>
           </div>
