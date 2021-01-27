@@ -88,6 +88,13 @@ H1 {
   font-family: frankie;
   font-size: 80px;
   letter-spacing: 1px;
+  margin-top: 153.6px;
+}
+
+#responsive{
+  position: absolute;
+  top: 71px;
+  right: 72px;
 }
 
 #banner-text p {
@@ -176,6 +183,12 @@ p {
   padding-left: 70px;
 }
 
+.nav1{
+  position: absolute;
+  top: -3px;
+  left: 30%;
+}
+
 .sub-container-picture2 {
   max-height: 450px;
   max-width: 750px;
@@ -235,6 +248,10 @@ i.fab:hover {
   text-shadow: 1px 1px 1px black;
 }
 
+.nav2{
+  display: none;
+}
+
 footer {
   text-align: center;
   font-family: normal;
@@ -247,10 +264,44 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+  #button-header{
+    display: none;
+  }
+  .nav1{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 420px) {
+  #button-header{
+    display: none;
+  }
+  .nav1{
+    display: none;
+  }
 }
 
 @media screen and (max-height: 670px) {
+  .sub-container-picture1{
+    max-width: 100%;
+    padding-left: 0px;
+    height: auto;
+  }
+  .sub-container-picture2{
+    max-width: 100%;
+    padding-left: 0px;
+    height: auto;
+  }
+  #button-header{
+    display: none;
+  }
+  .nav1{
+    display: none;
+  }
+  .nav2{
+    display: inline;
+  }
+  #responsive2{
+    display: none;
+  }
 }
