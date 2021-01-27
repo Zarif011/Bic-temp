@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Bold;
+  src: url("fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: Normal;
+  src: url("fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: light;
+  src: url("fonts/Ubuntu-light.ttf");
+}
+
+@font-face {
+  font-family: frankie;
+  src: url("fonts/frankie.otf");
+}
+
+header {
+  display: flex;
+  line-height: 10em;
+  margin-top: -15px;
+  justify-content: center;
+}
+
+header,
+section {
+  font-family: Normal;
+}
+
+nav a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #89a39a;
+  -webkit-transition: all 0.35s ease;
+}
+
+#logo-header {
+  position: absolute;
+  left: 5%;
+  width: 200px;
+  margin-top: 25px;
+}
+
+#button-header {
+  position: absolute;
+  right: 5%;
+  margin-top: 60px;
+  background-color: #89a39a;
+  border: none;
+  padding: 10px 25px 10px;
+  font-family: normal;
+  color: white;
+  font-size: 20px;
+  -webkit-transition: all 0.35s ease;
+}
+
+#button-header:hover {
+  background-color: #251611;
+  -webkit-transition: all 0.45s ease;
+}
+
+#banner-box {
+  text-align: center;
+}
+
+#banner {
+  height: auto;
+  max-width: 100%;
+}
+
+#banner-text {
+  color: #251611;
+  opacity: 0.9;
+  margin-left: 80px;
+  margin-top: -475px;
+  margin-bottom: 320px;
+}
+
+H1 {
+  font-family: frankie;
+  font-size: 80px;
+  letter-spacing: 1px;
+}
+
+#banner-text p {
+  font-family: light;
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+}
+h2 {
+  font-size: 36px;
+  color: #767679;
+}
+
+#subtitle {
+  font-size: 20px;
+  font-family: light;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+h2,
+#subtitle {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.sub-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  padding-top: 40px;
+}
+
+.sub-container > div {
+  flex: 1 150px;
+}
+
+.sub-container-title1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #767679;
+}
+
+.sub-container-title2 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #767679;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.sub-container-picture1 {
+  max-height: 450px;
+  max-width: 750px;
+  padding-left: 70px;
+}
+
+.sub-container-picture2 {
+  max-height: 450px;
+  max-width: 750px;
+  padding-right: 70px;
+}
+
+.sub-container-button {
+  margin-top: 10px;
+  background-color: #89a39a;
+  border: none;
+  padding: 10px 25px 10px;
+  font-family: normal;
+  color: white;
+  font-size: 20px;
+  -webkit-transition: all 0.35s ease;
+}
+
+.sub-container-button:hover {
+  background-color: #251611;
+  -webkit-transition: all 0.45s ease;
+}
+
+.contact-section {
+  margin-top: 120px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background-color: #f4f4f4;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+h4 {
+  font-family: normal;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.footer-button {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+i.fab {
+  color: #251611;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+i.fab:hover {
+  color: #89a39a;
+  text-shadow: 1px 1px 1px black;
+}
+
+footer {
+  text-align: center;
+  font-family: normal;
+}
+
+#mention {
+  margin-top: 70px;
+  color: #767679;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 420px) {
+}
+
+@media screen and (max-height: 670px) {
+}
