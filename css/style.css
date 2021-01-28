@@ -18,6 +18,8 @@
   src: url("fonts/frankie.otf");
 }
 
+/* index page */
+
 header {
   display: flex;
   line-height: 10em;
@@ -105,6 +107,7 @@ H1 {
   margin-left: auto;
   text-align: justify;
 }
+
 h2 {
   font-size: 36px;
   color: #767679;
@@ -263,6 +266,58 @@ footer {
   top: 71px;
   right: 72px;
 }
+
+/* index page */
+
+/* contact page */
+
+#contact-top {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 170px;
+}
+
+#h1-contact {
+  font-family: frankie;
+  font-size: 65px;
+  color: #251611;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #767679;
+}
+
+#subtitle-contact {
+  font-size: 20px;
+  font-family: light;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+#contact-bottom {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+h2,
+#subtitle {
+  text-align: center;
+}
+
+/* contact page */
 
 @media screen and (max-width: 320px) {
   #button-header {
