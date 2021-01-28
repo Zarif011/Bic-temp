@@ -145,7 +145,7 @@ hr {
   flex: 1 150px;
 }
 
-.sub-container-title1 {
+#sub-container-title1 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -154,7 +154,7 @@ hr {
   color: #767679;
 }
 
-.sub-container-title2 {
+#sub-container-title2 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -175,10 +175,16 @@ p {
   line-height: 25px;
   letter-spacing: 1px;
 }
-.sub-container-picture1 {
+#sub-container-picture1,
+#sub-container-picture2 {
   max-height: 450px;
   max-width: 750px;
   padding-left: 70px;
+}
+
+#sub-container-picture2 {
+  padding-left: 0px;
+  padding-right: 70px;
 }
 
 .nav1 {
@@ -187,11 +193,11 @@ p {
   left: 30%;
 }
 
-.sub-container-picture2 {
+/* #sub-container-picture2 {
   max-height: 450px;
   max-width: 750px;
   padding-right: 70px;
-}
+} */
 
 .sub-container-button {
   margin-top: 10px;
@@ -432,31 +438,176 @@ h2,
 
 /* contact page */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 380px) {
   #button-header {
     display: none;
   }
   .nav1 {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 381px max-width: 550px) {
+  #logo-header {
+    width: 140px;
+  }
   #button-header {
-    display: none;
+    font-size: 15px;
+    padding: 8px 15px 8px;
   }
-  .nav1 {
-    display: none;
+
+  h1 {
+    font-size: 28px;
+    margin-top: 378px;
+    margin-left: -68px;
+  }
+
+  #banner {
+    margin-top: 140px;
+  }
+
+  #banner-text p {
+    font-size: 16px;
+    margin-top: 90px;
+    margin-left: -72px;
+    font-family: normal;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: -250px;
+    font-size: 22px;
+  }
+
+  #subtitle {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #indexhr {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  #sub-container-title1,
+  #sub-container-title2 {
+    font-size: 13px;
+  }
+
+  .sub-container {
+    margin-bottom: 0px;
+  }
+  h3,
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+  }
+  #sub-container-picture1,
+  #sub-container-picture2 {
+    max-height: 220px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sub-container-picture1 {
+    margin-top: 30px;
+  }
+
+  #sub-container-picture2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .contact-section {
+    margin-top: 65px;
+    padding-bottom: 40px;
+  }
+
+  .footer-button {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sub-container-button {
+    margin-top: 10px;
+    padding: 8px 15px 8px;
+    font-size: 15px;
+  }
+
+  .contact-section h4 {
+    font-size: 17px;
+  }
+
+  #mention {
+    margin-top: 60px;
+    font-size: 13px;
   }
 }
 
-@media screen and (max-height: 670px) {
-  .sub-container-picture1 {
+@media screen and (min-width: 551px max-width: 653px) {
+  #logo-header {
+    width: 140px;
+  }
+
+  H1 {
+    font-size: 45px;
+    margin-top: 55%;
+    margin-left: -60px;
+    letter-spacing: 1px;
+  }
+
+  #banner-text p {
+    font-size: 18px;
+    margin-top: -16px;
+    margin-left: -60px;
+  }
+
+  h2 {
+    margin-top: -187px;
+    font-size: 24px;
+  }
+
+  #subtitle {
+    font-size: 14px;
+  }
+
+  #indexhr {
+    margin-bottom: 0px;
+  }
+
+  h3,
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  #sub-container-picture1,
+  #sub-container-picture2 {
+    max-height: 300px;
+    margin-left: 9%;
+  }
+
+  .footer-button {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #mention {
+    font-size: 13px;
+  }
+}
+
+/* @media screen and (min-height: 650px) { 
+  #sub-container-picture1 {
     max-width: 100%;
     padding-left: 0px;
     height: auto;
   }
-  .sub-container-picture2 {
+  #sub-container-picture2 {
     max-width: 100%;
     padding-left: 0px;
     height: auto;
@@ -473,9 +624,9 @@ h2,
   #responsive2 {
     display: none;
   }
-}
+}*/
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1100px max-width: 1320px) {
   header {
     margin-top: -25px;
     margin-bottom: -30px;
@@ -523,8 +674,8 @@ h2,
     font-size: 16px;
   }
 
-  .sub-container-picture1,
-  .sub-container-picture2 {
+  #sub-container-picture1,
+  #sub-container-picture2 {
     max-height: 300px;
     margin-top: 30px;
   }
@@ -556,10 +707,14 @@ h2,
     right: 30%;
   }
 
-  H1 {
+  h1 {
     font-size: 70px;
     margin-top: 120px;
     margin-left: 29%;
+  }
+
+  #h1-contact {
+    margin-left: 0%;
   }
 
   #banner-text p {
