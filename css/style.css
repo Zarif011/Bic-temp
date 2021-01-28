@@ -74,6 +74,7 @@ nav a:hover {
 #banner {
   height: auto;
   max-width: 100%;
+  margin-top: 170px;
 }
 
 #banner-text {
