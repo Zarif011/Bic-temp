@@ -24,59 +24,82 @@
       </nav> -->
       <!-- <a href="contact.html"><button id="button-header">Contact us</button></a> -->
     </header>
+
     <section class="contact-title">
-      <hr id="contact-top"/> 
+      <hr id="hr-contact-top"/> 
       <h1 id="h1-contact">Contact</h1>
       <p id="subtitle-contact">Interested in investing? Or maybe you just have a few questions? <br>Don't hesitate to contact us, we’d be delighted to talk to you!</p> 
       </p>
-      <hr id="contact-bottom"/> 
+      <hr id="hr-contact-bottom"/> 
     </section>
-    <section class="container">
-        <div class="sub-container">
-           <div>
-             <p class="sub-container-title1">Who we are</p>
-             <h3>About the Club</h3>
-             <p>Bulls Investing Club was launched in 2019 to inform and raise the awareness of amateur and experienced investors about investment and trading methods.</p>
-              <p>We realised from this experience how difficult it is to handle market volatility and risk management, even for the seasoned investor.</p>
-             </div>
-          <img
-            src="css/images/computer-chart.jpg"
-            class="sub-container-picture1"
-            alt="XXXX"
-            />
-          
-        </div>
-        <section class="container">
-          <div class="sub-container">  
-             <div>
-               <p class="sub-container-title2">In online communities</p>
-               <p>We love to talk and connect with our community members. Find out what we are doing or come by and say hi!</p>
-               <div class="footer-button">
-                <a href="https://twitter.com/bulls_investing"> <i class="fab fa-twitter fa-3x"></i></a>
-                <a href="https://t.me/CryptoRules"> <i class="fab fa-telegram-plane fa-3x"></i></a>
-                <a href="https://www.facebook.com/BullsInvestingClub/"> <i class="fab fa-facebook-f fa-3x"></i></a>
-                </div>
-              </div>
-          </div>
-              
-         <div class="contact-section">
-         <h4>Planning to invest?</h4>  
-         <a href="contact.html"><button class="sub-container-button">Get Started</button></a>
-          </div>
 
-          <div class="contact-section">
-            <h4>Find us on our social media</h4>  
-            <div class="footer-button">
-              <a href="https://twitter.com/bulls_investing"> <i class="fab fa-twitter fa-2x"></i></a>
-              <a href="https://t.me/CryptoRules"> <i class="fab fa-telegram-plane fa-2x"></i></a>
-              <a href="https://www.facebook.com/BullsInvestingClub/"> <i class="fab fa-facebook-f fa-2x"></i></a>
-              </div>
-             </div>
-         </div>
-    </section>
+    <section class="container">
+    <div>
+        <p class="sub-container-contact">Send us a message</p>
+      <div class="container-formcontact">
+         <p>For more information about us, the club, and the fund, send us an email.</p>
+        <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<div class="container-form">
+            <div>
+						 <label id="form-group">
+							Your Name (required)
+             </label>
+            </div>
+          	<input id="name" required />
+          <div>
+            <div>
+						<label id="form-group">
+							Your Email (required)
+            </label>
+          </div>
+						<input id="email" type="email" required />
+					<div>
+						<label id="form-group">
+							Your Message
+            </label>
+          </div><textarea id="message" rows="15" cols="50" required></textarea>
+					<div>
+			   		<button class="form-button" type="submit">
+					  	Send
+            </button>
+          </div>
+				</form>
+      </div>     
+    </div>
+    </div>  
+     
+
+
+
+
+
+
+
+
+      <div>
+         <p class="sub-container-contact">By mail</p>
+        <div class="container-contact">
+          <p>For more information about us, the club, and the fund, send us an email.</p>
+            <div id="contact-social">
+             <a href="mailto:contact@bullinvestingclub.com"> <i class="fas fa-envelope fa-3x"></i></a>
+            </div>
+        </div>     
+      </div>  
+           <div>
+             <p class="sub-container-contact">Via online communities</p>
+              <div class="container-contact">
+                <p>Find out our latest news or come by and say hi!</p>
+                  <div id="contact-social">
+                   <a href="https://twitter.com/bulls_investing"> <i class="fab fa-twitter fa-3x"></i></a>
+                   <a href="https://t.me/CryptoRules"> <i class="fab fa-telegram-plane fa-3x"></i></a>
+                   <a href="https://www.facebook.com/BullsInvestingClub/"> <i class="fab fa-facebook-f fa-3x"></i></a>
+                  </div>
+              </div>     
+            </div>  
+         </section>
     
    <footer>
-      <p id="mention">© Bulls Investing Club 2019-2021</p>
+      <p id="mention-contact">© Bulls Investing Club 2019-2021</p>
     </footer>
   </body>
 </html>
