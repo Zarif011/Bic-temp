@@ -306,8 +306,7 @@ footer {
   }
 }
 
-@media screen and (max-height: 1280px) {
-
+@media screen and (max-width: 1280px) {
   header {
     margin-top: -25px;
     margin-bottom: -30px;
@@ -342,19 +341,21 @@ footer {
     font-size: 31px;
   }
 
-  #subtitle{
+  #subtitle {
     font-size: 18px;
   }
 
-  h3,h4{
+  h3,
+  h4 {
     font-size: 29px;
   }
 
-  p{
+  p {
     font-size: 16px;
   }
-  
-  .sub-container-picture1, .sub-container-picture2{
+
+  .sub-container-picture1,
+  .sub-container-picture2 {
     max-height: 300px;
     margin-top: 30px;
   }
@@ -372,5 +373,29 @@ footer {
   .contact-section {
     padding-right: 50px;
     padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 3800px) {
+  #logo-header {
+    position: absolute;
+    left: 30%;
+  }
+
+  #button-header {
+    position: absolute;
+    right: 30%;
+  }
+
+  H1 {
+    font-size: 70px;
+    margin-top: 120px;
+    margin-left: 29%;
+  }
+
+  #banner-text p {
+    font-size: 35px;
+    margin-top: -25px;
+    margin-left: 29%;
   }
 }
