@@ -9,13 +9,13 @@
 }
 
 @font-face {
-  font-family: light;
-  src: url("fonts/Ubuntu-light.ttf");
+  font-family: Light;
+  src: url("fonts/Ubuntu-Light.ttf");
 }
 
 @font-face {
   font-family: frankie;
-  src: url("fonts/frankie.otf");
+  src: url("fonts/Frankie.otf");
 }
 
 /* index page */
