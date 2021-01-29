@@ -11,13 +11,21 @@
     />
     <title>Bulls Investing Club</title>
     <meta name="description" content=" XXXXX XXXXXX" />
-    <script src="https://kit.fontawesome.com/3d440c5b5a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3d440c5b5a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
-      <a href="index.html"> <img id="logo-header" src="css/images/BIC-logo.svg" alt="Bulls Investing Club Logo"/></a>
-        <!-- <nav>
+      <a href="index.html">
+        <img
+          id="logo-header"
+          src="css/images/BIC-logo.svg"
+          alt="Bulls Investing Club Logo"
+      /></a>
+      <!-- <nav>
         <a href="/about" class="navigation-item w-nav-link">About</a>
         <a href="/team" class="navigation-item w-nav-link">Club founders</a>
         <a href="/blog" class="navigation-item w-nav-link">Last report</a>
@@ -26,79 +34,89 @@
     </header>
 
     <section class="contact-title">
-      <hr id="hr-contact-top"/> 
+      <hr id="hr-contact-top" />
       <h1 id="h1-contact">Contact</h1>
-      <p id="subtitle-contact">Interested in investing? Or maybe you just have a few questions? <br>Don't hesitate to contact us, we’d be delighted to talk to you!</p> 
+      <p id="subtitle-contact">
+        Interested in investing? Or maybe you just have a few questions?
+        <br />Don't hesitate to contact us, we’d be delighted to talk to you!
       </p>
-      <hr id="hr-contact-bottom"/> 
+      <hr id="hr-contact-bottom" />
     </section>
 
-    <section class="container">
-    <div>
-        <p class="sub-container-contact">Send us a message</p>
-      <div class="container-formcontact">
-         <p>Use our online contact form for a quick and easy connection.</p>
-        <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="container-form">
-            <div>
-						 <label id="form-group">
-							Your Name (required)
-             </label>
-            </div>
-          	<input id="name" required />
-          <div>
-            <div>
-						<label id="form-group">
-							Your Email (required)
-            </label>
-          </div>
-						<input id="email" type="email" required />
-					<div>
-						<label id="form-group">
-							Your Message
-            </label>
-          </div><textarea id="message" rows="15" cols="50" required></textarea>
-					<div>
-			   		<button class="form-button" type="submit">
-					  	Send
-            </button>
-          </div>
-				</form>
-      </div>     
-    </div>
-    </div>  
-     
-
-
-
-
-
-
-
-
+    <div class="container">
       <div>
-         <p class="sub-container-contact">By mail</p>
+        <p class="sub-container-contact">Send us a message</p>
+        <div class="container-formcontact">
+          <p>Use our online contact form for a quick and easy connection.</p>
+          <div class="container-form">
+            <form id="form_1" method="post" action="INSERT PHP FILE LINK">
+              <div class="form-group">
+                <div>
+                  <label for="name">Your Name (required)</label>
+                </div>
+                <input id="name" class="form-control" required="" />
+              </div>
+              <div class="form-group">
+                <div>
+                  <label for="email">Your Email (required)</label>
+                </div>
+                <input
+                  id="email"
+                  class="form-control"
+                  type="email"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <div>
+                  <label for="message">Your Message<br /></label>
+                </div>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  rows="4"
+                  cols="50"
+                  required=""
+                ></textarea>
+              </div>
+              <button id="form-button" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-container-contact">By mail</p>
         <div class="container-contact">
-          <p>You can of course send us an e-mail instead of using the contact form.</p>
-            <div id="contact-social">
-             <a href="mailto:contact@bullinvestingclub.com"> <i class="fas fa-envelope fa-3x"></i></a>
-            </div>
-        </div>     
-      </div>  
-           <div>
-             <p class="sub-container-contact">Via online communities</p>
-              <div class="container-contact">
-                <p>Find out our latest news or drop a line to say hi!</p>
-                  <div id="contact-social">
-                   <a href="https://twitter.com/bulls_investing"> <i class="fab fa-twitter fa-3x"></i></a>
-                   <a href="https://t.me/CryptoRules"> <i class="fab fa-telegram-plane fa-3x"></i></a>
-                   <a href="https://www.facebook.com/BullsInvestingClub/"> <i class="fab fa-facebook-f fa-3x"></i></a>
-                  </div>
-              </div>     
-            </div>  
-         </section>
-    
-   <footer>
+          <p>
+            You can of course send us an e-mail instead of using the contact
+            form.
+          </p>
+          <div class="contact-social">
+            <a href="mailto:contact@bullinvestingclub.com">
+              <i class="fas fa-envelope fa-3x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-container-contact">Via online communities</p>
+        <div class="container-contact">
+          <p>Find out our latest news or drop a line to say hi!</p>
+          <div class="contact-social">
+            <a href="https://twitter.com/bulls_investing">
+              <i class="fab fa-twitter fa-3x"></i
+            ></a>
+            <a href="https://t.me/CryptoRules">
+              <i class="fab fa-telegram-plane fa-3x"></i
+            ></a>
+            <a href="https://www.facebook.com/BullsInvestingClub/">
+              <i class="fab fa-facebook-f fa-3x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
       <p id="mention-contact">© Bulls Investing Club 2019-2021</p>
     </footer>
   </body>
