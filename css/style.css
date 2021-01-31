@@ -232,8 +232,8 @@ h4 {
 .footer-button {
   display: flex;
   justify-content: space-around;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 40%;
+  padding-right: 40%;
 }
 
 i.fab {
