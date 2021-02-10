@@ -18,6 +18,11 @@
   src: url("fonts/Frankie.otf");
 }
 
+@font-face {
+  font-family: "Times New Roman";
+  src: url("fonts/times.ttf");
+}
+
 /* index page */
 
 a {
@@ -259,8 +264,6 @@ footer {
   font-size: 16px;
 }
 
-/* index page */
-
 /* contact page */
 
 #hr-contact-top {
@@ -290,7 +293,17 @@ h2 {
   font-family: "normal";
   line-height: 35px;
   letter-spacing: 1px;
-  margin-top: -35px;
+  margin-top: -30px;
+  text-align: center;
+  color: #767679;
+}
+
+#subtitle-contact-2 {
+  font-size: 23px;
+  font-family: "normal";
+  line-height: 35px;
+  letter-spacing: 1px;
+  margin-top: -20px;
   text-align: center;
   color: #767679;
 }
@@ -332,6 +345,27 @@ h2,
   padding-bottom: 40px;
   background-color: #f4f4f4;
   margin-bottom: 90px;
+}
+
+.container-invest {
+  margin-top: 16px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #f4f4f4;
+  margin-bottom: 90px;
+  font-family: "Times New Roman";
+}
+
+.container-invest p {
+  text-align: justify;
+  padding-top: 10px;
+  font-family: "Times New Roman";
+}
+
+.simple-agreement {
+  font-family: "Times New Roman";
 }
 
 .container-formcontact {
@@ -387,27 +421,35 @@ h2,
   margin-top: 40px;
 }
 
-.form-group {
+.form-group,
+#share-split,
+#wallet-type {
   font-family: "Normal";
   font-size: 18px;
   text-align: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 #name,
 #email,
-#message {
+#message,
+#wallet,
+#start,
+#send {
   width: 60% !important;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  margin-top: 15px;
-  margin-bottom: 30px;
   border-width: 1px;
   border-style: solid;
   border-color: #bdbdbd;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.radio {
+  padding-bottom: 25px;
+  font-family: "light";
 }
 
 #message {
@@ -424,6 +466,28 @@ h2,
   color: white;
   font-size: 20px;
   -webkit-transition: all 0.35s ease;
+}
+
+#form-button:hover {
+  background-color: #251611;
+  -webkit-transition: all 0.45s ease;
+}
+
+#invest-button {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  background-color: #89a39a;
+  border: none;
+  padding: 10px 25px 10px;
+  font-family: "normal";
+  color: white;
+  font-size: 20px;
+  -webkit-transition: all 0.35s ease;
+}
+
+#invest-button:hover {
+  background-color: #251611;
+  -webkit-transition: all 0.45s ease;
 }
 
 /* contact page */
@@ -454,7 +518,8 @@ h2,
     font-size: 18px;
   }
 
-  #subtitle {
+  #subtitle,
+  .simple-agreement {
     font-size: 14px;
     font-weight: 500;
   }
@@ -523,7 +588,20 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  .simple-agreement {
+    font-size: 16px;
+  }
+
+  .container-invest {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .radio {
+    margin-left: 25px;
+  }
+
+  /* Contact / Invest */
 
   #h1-contact {
     font-size: 50px;
@@ -531,7 +609,8 @@ h2,
     margin-bottom: 55px;
   }
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 19px;
   }
 
@@ -556,9 +635,9 @@ h2,
     margin-left: -50px;
     margin-right: -8px;
   }
-
-  /* Contact */
 }
+
+/* Contact / Invest */
 
 @media (min-width: 300px) and (max-width: 345px) {
   #logo-header {
@@ -582,7 +661,8 @@ h2,
     font-size: 18px;
   }
 
-  #subtitle {
+  #subtitle,
+  .simple-agreement {
     font-size: 14px;
     font-weight: 500;
   }
@@ -651,14 +731,15 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  /* Contact / Invest */
 
   #h1-contact {
     font-size: 45px;
     margin-left: 7px;
   }
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 16px;
   }
 
@@ -677,15 +758,27 @@ h2,
 
   .container-form {
     margin-left: 48px;
-    /* width: 100%; */
   }
 
   .form-group {
     width: 260px;
   }
 
-  /* Contact */
+  .container-invest {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .simple-agreement {
+    font-size: 15px;
+  }
+
+  .radio {
+    margin-left: -25px;
+  }
 }
+
+/* Contact / Invest */
 
 @media (min-width: 350px) and (max-width: 450px) {
   #logo-header {
@@ -721,7 +814,8 @@ h2,
     font-size: 22px;
   }
 
-  #subtitle {
+  #subtitle,
+  .simple-agreement {
     font-size: 14px;
     font-weight: 500;
   }
@@ -798,14 +892,20 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  .container-invest {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* Contact / Invest */
 
   #h1-contact {
     font-size: 45px;
     padding-left: 70px;
   }
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 17px;
     margin-top: -15px;
   }
@@ -841,8 +941,12 @@ h2,
     font-size: 13px;
   }
 
-  /* Contact */
+  .simple-agreement {
+    font-size: 16px;
+  }
 }
+
+/* Contact / Invest */
 
 @media (min-width: 540px) and (max-width: 650px) {
   h1 {
@@ -901,14 +1005,15 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  /* Contact / Invest */
 
   #h1-contact {
     font-size: 57px;
     margin-left: 5px;
   }
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 15px;
   }
 
@@ -917,8 +1022,13 @@ h2,
     font-size: 14px;
   }
 
-  /* Contact */
+  .container-formcontact {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
+
+/* Contact / Invest */
 
 @media (min-width: 768px) and (max-width: 790px) {
   #logo-header {
@@ -1011,9 +1121,10 @@ h2,
     font-size: 13px;
   }
 
-  /* Contact */
+  /* Contact / Invest */
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 21px;
   }
 
@@ -1023,8 +1134,12 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  .simple-agreement {
+    font-size: 19px;
+  }
 }
+
+/* Contact / Invest */
 
 @media (min-width: 800px) and (max-width: 1050px) {
   #logo-header {
@@ -1114,9 +1229,10 @@ h2,
     font-size: 13px;
   }
 
-  /* Contact */
+  /* Contact / Invest */
 
-  #subtitle-contact {
+  #subtitle-contact,
+  #subtitle-contact-2 {
     font-size: 20px;
   }
 
@@ -1126,8 +1242,12 @@ h2,
     padding-right: 0px;
   }
 
-  /* Contact */
+  .simple-agreement {
+    font-size: 19px;
+  }
 }
+
+/* Contact / Invest */
 
 @media screen and (min-width: 3800px) {
   #logo-header {

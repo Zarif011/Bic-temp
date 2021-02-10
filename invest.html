@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="css/images/favicon.ico"
+    />
+    <title>Bulls Investing Club</title>
+    <meta name="description" content=" XXXXX XXXXXX" />
+    <script
+      src="https://kit.fontawesome.com/3d440c5b5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          id="logo-header"
+          src="css/images/BIC-logo.svg"
+          alt="Bulls Investing Club Logo"
+      /></a>
+      <!-- <nav>
+        <a href="/about" class="navigation-item w-nav-link">About</a>
+        <a href="/team" class="navigation-item w-nav-link">Club founders</a>
+        <a href="/blog" class="navigation-item w-nav-link">Last report</a>
+      </nav> -->
+    </header>
+
+    <section class="contact-title">
+      <hr id="hr-contact-top" />
+      <h1 id="h1-contact">Planning to Invest?</h1>
+      <p id="subtitle-contact">
+        Please read the following simple agreement carefully and fill in the
+        form below.
+      </p>
+      <p id="subtitle-contact-2">
+        We will contact you within 48 hours after receiving your request.
+      </p>
+      <hr id="hr-contact-bottom" />
+    </section>
+
+    <div class="container">
+      <p class="sub-container-contact">Simple agreement conditions</p>
+      <div class="container-invest">
+        <p class="simple-agreement">
+          <b>1.</b> To participate, we require a minimum investment of $500 USDT
+          at the investment date to ensure sufficient capitalization and cover
+          the fund's operating costs.
+        </p>
+        <p class="simple-agreement">
+          <b>2.</b> Our investors are splitting any "up and down" risk with us.
+          <i>(<b>1</b>)</i>
+        </p>
+        <p class="simple-agreement">
+          <b>3.</b> The minimum investment period is 3 months; your capital is
+          therefore locked during this period.
+        </p>
+        <p class="simple-agreement">
+          <b>4.</b> Any decision to withdraw your investment capital must be
+          notified to us at least one month in advance.
+        </p>
+        <p class="simple-agreement">
+          <b>5.</b> Before signing the agreement, please indicate how you would
+          like to receive your earnings,monthly or quarterly.
+        </p>
+        <p class="simple-agreement">
+          <b>5.1.</b> If you decide to receive your earnings quarterly, your
+          investment will be automatically compounded.
+        </p>
+        <p class="simple-agreement">
+          <b>6.</b> The "share split payment" will be made every fifth of the
+          month based on our 50/50 calculation formula.
+        </p>
+        <p class="simple-agreement">
+          <b>7.</b> Our financial report will be published four times a year
+          (quarterly).
+        </p>
+        <p class="simple-agreement">
+          <b>8.</b> Transactions are processed strictly in USDT, whether it is
+          the "share split payment" or the invested capital's restitution.
+        </p>
+        <p class="simple-agreement">
+          <i
+            >(<b>1</b>): we are not responsible for any drop/win of your
+            investments.</i
+          >
+        </p>
+        <p class="simple-agreement">
+          This "simple agreement" can be modified at any time as it is not a
+          definitive version, and we aim to enhance our collaboration
+          continuously.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="sub-container-contact">Subscription form</p>
+      <div class="container-formcontact">
+        <div class="container-form">
+          <form id="form_2" method="post" action="INSERT PHP FILE LINK">
+            <div class="form-group">
+              <div>
+                <label for="name">Your Name / Username</label>
+              </div>
+              <input id="name" class="form-control" required="" />
+            </div>
+            <div class="form-group">
+              <div>
+                <label for="email">Your Email</label>
+              </div>
+              <input id="email" class="form-control" type="email" required="" />
+            </div>
+            <div class="form-group">
+              <div>
+                <p id="share-split">Share split payment frequency</p>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="radio">
+                <input type="radio" id="Monthly" name="share-split" />
+                Monthly
+              </div>
+              <div class="radio">
+                <input type="radio" id="Quaterly" name="share-split" />
+                Quaterly
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div>
+                <label for="wallet">Your USDT wallet address</label>
+              </div>
+              <input id="wallet" class="form-control" required="" />
+            </div>
+
+            <div class="form-group">
+              <div>
+                <p id="wallet-type">USDT wallet type</p>
+              </div>
+
+              <div class="form-group">
+                <div class="radio">
+                  <input type="radio" id="BEP2" name="BEP2" /> Binance Chain
+                  (BEP2)
+                </div>
+
+                <div class="radio">
+                  <input type="radio" id="BEP20" name="BEP20" />
+                  Binance Smart Chain (BEP20)
+                </div>
+
+                <div class="radio">
+                  <input type="radio" id="ERC20" name="ERC20" />
+                  Ethereum (ERC20)
+                </div>
+
+                <div class="radio">
+                  <input type="radio" id="OMNI" name="OMNI" /> Tether (OMNI)
+                </div>
+
+                <div class="radio">
+                  <input type="radio" id="TRC20" name="TRC20" /> Tron (TRC20)
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div>
+                <label for="date">Date</label>
+              </div>
+              <div>
+                <input
+                  type="date"
+                  id="date"
+                  name="invest-start"
+                  value="2021-01-01"
+                  min="2021-02-01"
+                  max="2023-02-01"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div>
+                <label for="signature">Electronic signature</label>
+              </div>
+              <div>
+                <input type="file" id="signature" />
+              </div>
+              <button id="invest-button" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="sub-container-contact">Contact</p>
+      <div class="container-contact">
+        <p>Want to learn more about us, the Club, and the fund?</p>
+        <p>Contact us!</p>
+        <div class="contact-social">
+          <a href="contact.html"><i class="fas fa-at fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-button">
+        <a href="https://twitter.com/bulls_investing">
+          <i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://t.me/CryptoRules">
+          <i class="fab fa-telegram-plane fa-2x"></i
+        ></a>
+        <a href="https://www.facebook.com/BullsInvestingClub/">
+          <i class="fab fa-facebook-f fa-2x"></i
+        ></a>
+      </div>
+      <p id="mention">© Bulls Investing Club 2019-2021</p>
+    </footer>
+  </body>
+</html>
